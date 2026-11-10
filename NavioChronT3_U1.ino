@@ -51,8 +51,6 @@ unsigned long curMillis, lastMillis;
 unsigned long curBatteryMillis, lastBatteryMillis;
 int batteryCheckInterval = 1000 * 15 * 1;  // Check battery every 5 minutes;
 
-int Verification = 1;
-
 byte Cols[] = { 6, 5, 4, 2, 1 }; 
 //byte Cols[] = { 15, 7, 6, 5, 4 };              // Outputs
 byte Rows[] = { 13, 12, 11, 10 };
@@ -184,7 +182,7 @@ void loop() {
     lastKeyDataMicros = KeyDataMicros;
   
   if (KeyDataMicros - lastKeyDataMicros >= 2000 && !lowPowerMode) {
-    if (Verification == 1) {
+    if (1==1) {
       for (int i=0; i<=ROWNUM-1; i++)
       {
         digitalWrite(Rows[i], LOW);
