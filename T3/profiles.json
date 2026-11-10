@@ -1,0 +1,82 @@
+{
+    "jianying": {
+        "title_contains": ["剪映"],
+        "mapping": {
+            "0x02": ["key_combo", ["ctrl", "b"]],
+            "0x00": ["key", "shift"],
+            "0x01": ["key", "q"],
+            "0x03": ["key", "w"],
+            "0x12": ["key", "v"],
+            "0x13": ["key_combo", ["ctrl", "z"]],
+            "0x14": ["key_combo", ["ctrl", "shift", "z"]],
+            "0x21": ["key", "alt"],
+            "0x23": ["key", "backspace"],
+            "0x24": ["key", "space"],
+            "0x22": ["key", "up"],
+            "0x31": ["key", "left"],
+            "0x32": ["key", "down"],
+            "0x33": ["key", "right"],
+            "0x30": ["key", "ctrl"],
+            "0x04": ["key", "left"],
+            "0x44": ["key", "right"],
+            "0x0f": ["alt_scroll", "down"],
+            "0x4f": ["alt_scroll", "up"],
+            "0x09": ["ctrl_scroll", "down"],
+            "0x49": ["ctrl_scroll", "up"]
+        }
+    },
+
+    "fusion360": {
+        "title_contains": ["Autodesk Fusion"],
+        "mapping": {
+            "0x02": ["key", "e"],
+            "0x00": ["key", "a"],
+            "0x01": ["key", "q"],
+            "0x03": ["key", "f"],
+            "0x12": ["key", "v"],
+            "0x13": ["key_combo", ["ctrl", "z"]],
+            "0x14": ["key_combo", ["ctrl", "y"]],
+            "0x21": ["key", "shift"],
+            "0x23": ["key", "backspace"],
+            "0x24": ["key", "space"],
+            "0x22": ["mouse_middle_drag", "mmup", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x31": ["mouse_middle_drag", "mmleft", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x32": ["mouse_middle_drag", "mmdown", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x33": ["mouse_middle_drag", "mmright", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x30": ["key", "ctrl"],
+            "0x04": ["shift_mouse_middle_drag", "mmright"],
+            "0x44": ["shift_mouse_middle_drag", "mmleft"],
+            "0x0f": ["mouse_middle_drag", "mmleft"],
+            "0x4f": ["mouse_middle_drag", "mmright"],
+            "0x09": ["shift_mouse_middle_drag", "mmdown"],
+            "0x49": ["shift_mouse_middle_drag", "mmup"]
+        }
+    },
+
+    "default": {
+        "title_contains": [],
+        "mapping": {
+            "0x02": ["key_combo", ["ctrl", "b"]],
+            "0x00": ["key", "shift"],
+            "0x01": ["key", "q"],
+            "0x03": ["key", "w"],
+            "0x12": ["key", "v"],
+            "0x13": ["key_combo", ["ctrl", "z"]],
+            "0x14": ["key_combo", ["ctrl", "shift", "z"]],
+            "0x21": ["key", "alt"],
+            "0x23": ["key", "backspace"],
+            "0x24": ["key", "space"],
+            "0x22": ["key", "up", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x31": ["key", "left", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x32": ["key", "down", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x33": ["key", "right", {"repeat": true, "delay": 500, "interval": 50}],
+            "0x30": ["key", "ctrl"],
+            "0x04": ["key", "left"],
+            "0x44": ["key", "right"],
+            "0x0f": ["alt_scroll", "down"],
+            "0x4f": ["alt_scroll", "up"],
+            "0x09": ["ctrl_scroll", "down"],
+            "0x49": ["ctrl_scroll", "up"]
+        }
+    }
+}
