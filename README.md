@@ -12,3 +12,5 @@ Preset Editor: https://isilcala.github.io/Navio-Chron-Firmware/
 
 Firmware Flashing & Updates: https://isilcala.github.io/Navio-Chron-Firmware/firmware/
 
+<img width="5472" height="3072" alt="IMG_4477a1" src="https://github.com/user-attachments/assets/edb33a42-7edd-4cb2-9ed8-73f573a8c0cf" />
+
